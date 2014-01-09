@@ -1,0 +1,114 @@
+
+open() failed: No such file or directory
+2014/01/09 17:35:46.451 andorCCD:AndorCCD: ERROR: VxD not loaded.
+commonPlugins.cmd -- Line 34 -- Command NDFileMagickConfigure not found.
+Starting iocInit
+reboot_restore: entry for file 'auto_settings.sav'
+reboot_restore: Found filename 'auto_settings.sav' in restoreFileList.
+*** restoring from './autosave/auto_settings.sav' at initHookState 6 (before record/device init) ***
+save_restore: Can't open file './autosave/auto_settings.sav'.
+save_restore: Trying backup file './autosave/auto_settings.savB'
+save_restore: Can't open file './autosave/auto_settings.savB'.
+save_restore: Can't figure out which seq file is most recent,
+save_restore: so I'm just going to start with './autosave/auto_settings.sav0'.
+save_restore: Trying backup file './autosave/auto_settings.sav0'
+save_restore: Can't open file './autosave/auto_settings.sav0'.
+save_restore: Trying backup file './autosave/auto_settings.sav1'
+save_restore: Can't open file './autosave/auto_settings.sav1'.
+save_restore: Trying backup file './autosave/auto_settings.sav2'
+save_restore: Can't open file './autosave/auto_settings.sav2'.
+save_restore: Can't find a file to restore from...save_restore: ...last tried './autosave/auto_settings.sav2'. I give up.
+save_restore: **********************************
+
+save_restore: Can't open save file.devAsynInt32Array::initCommon, 13ANDOR1:Magick1:Dimensions_RBV connectDevice failed asynManager:connectDevice port FileMagick1 not found
+2014/01/09 17:35:46.551 13ANDOR1:Magick1:AsynIO: Connect error, status=3, asynManager:connectDevice port FileMagick1 not found
+reboot_restore: entry for file 'auto_settings.sav'
+reboot_restore: Found filename 'auto_settings.sav' in restoreFileList.
+*** restoring from './autosave/auto_settings.sav' at initHookState 7 (after record/device init) ***
+save_restore: Can't open file './autosave/auto_settings.sav'.
+save_restore: Trying backup file './autosave/auto_settings.savB'
+save_restore: Can't open file './autosave/auto_settings.savB'.
+save_restore: Can't figure out which seq file is most recent,
+save_restore: so I'm just going to start with './autosave/auto_settings.sav0'.
+save_restore: Trying backup file './autosave/auto_settings.sav0'
+save_restore: Can't open file './autosave/auto_settings.sav0'.
+save_restore: Trying backup file './autosave/auto_settings.sav1'
+save_restore: Can't open file './autosave/auto_settings.sav1'.
+save_restore: Trying backup file './autosave/auto_settings.sav2'
+save_restore: Can't open file './autosave/auto_settings.sav2'.
+save_restore: Can't find a file to restore from...save_restore: ...last tried './autosave/auto_settings.sav2'. I give up.
+save_restore: **********************************
+
+save_restore: Can't open save file.2014/01/09 17:35:47.058 andorCCD:setupAcquisition: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.058 andorCCD:writeFloat64: error, status=3 function=59, value=0.000000
+2014/01/09 17:35:47.058 13ANDOR1:cam1:AcquirePeriod devAsynFloat64 pPvt->result.status=3, process error 
+2014/01/09 17:35:47.059 andorCCD:setupAcquisition: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.059 andorCCD:writeFloat64: error, status=3 function=58, value=1.000000
+2014/01/09 17:35:47.059 13ANDOR1:cam1:AcquireTime devAsynFloat64 pPvt->result.status=3, process error 
+2014/01/09 17:35:47.059 andorCCD:setupAcquisition: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.059 andorCCD:writeFloat64: error, status=3 function=82, value=0.100000
+2014/01/09 17:35:47.059 13ANDOR1:cam1:AndorAccumulatePeriod devAsynFloat64 pPvt->result.status=3, process error 
+2014/01/09 17:35:47.059 andorCCD:writeFloat64: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.059 andorCCD:writeFloat64: error, status=3 function=41, value=1.000000
+2014/01/09 17:35:47.059 13ANDOR1:cam1:Gain devAsynFloat64 pPvt->result.status=3, process error 
+2014/01/09 17:35:47.060 andorCCD:setupShutter: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.060 andorCCD:writeFloat64: error, status=3 function=69, value=0.000000
+2014/01/09 17:35:47.060 13ANDOR1:cam1:ShutterCloseDelay devAsynFloat64 pPvt->result.status=3, process error 
+2014/01/09 17:35:47.060 andorCCD:setupShutter: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.060 andorCCD:writeFloat64: error, status=3 function=68, value=0.000000
+2014/01/09 17:35:47.060 13ANDOR1:cam1:ShutterOpenDelay devAsynFloat64 pPvt->result.status=3, process error 
+2014/01/09 17:35:47.060 andorCCD:writeFloat64: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.060 andorCCD:writeFloat64: error, status=3 function=70, value=25.000000
+2014/01/09 17:35:47.060 13ANDOR1:cam1:Temperature devAsynFloat64 pPvt->result.status=3, process error 
+2014/01/09 17:35:47.060 andorCCD:writeInt32: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.060 andorCCD:writeInt32: error, status=3 function=76, value=0
+2014/01/09 17:35:47.060 13ANDOR1:cam1:AndorCooler devAsynInt32 process error 
+2014/01/09 17:35:47.060 andorCCD:setupShutter: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.061 andorCCD:writeInt32: error, status=3 function=80, value=0
+2014/01/09 17:35:47.061 13ANDOR1:cam1:AndorShutterExTTL devAsynInt32 process error 
+2014/01/09 17:35:47.061 andorCCD:setupShutter: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.061 andorCCD:writeInt32: error, status=3 function=64, value=0
+2014/01/09 17:35:47.061 13ANDOR1:cam1:ShutterControl devAsynInt32 process error 
+2014/01/09 17:35:47.064 andorCCD:setupAcquisition: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.064 andorCCD:writeInt32: error, status=3 function=42, value=1
+2014/01/09 17:35:47.064 13ANDOR1:cam1:BinX devAsynInt32 process error 
+2014/01/09 17:35:47.064 andorCCD:setupAcquisition: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.064 andorCCD:writeInt32: error, status=3 function=43, value=1
+2014/01/09 17:35:47.064 13ANDOR1:cam1:BinY devAsynInt32 process error 
+2014/01/09 17:35:47.064 andorCCD:setupAcquisition: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.064 andorCCD:writeInt32: error, status=3 function=44, value=0
+2014/01/09 17:35:47.064 13ANDOR1:cam1:MinX devAsynInt32 process error 
+2014/01/09 17:35:47.065 andorCCD:setupAcquisition: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.065 andorCCD:writeInt32: error, status=3 function=45, value=0
+2014/01/09 17:35:47.065 13ANDOR1:cam1:MinY devAsynInt32 process error 
+2014/01/09 17:35:47.065 andorCCD:setupAcquisition: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.065 andorCCD:writeInt32: error, status=3 function=54, value=1
+2014/01/09 17:35:47.065 13ANDOR1:cam1:NumExposures devAsynInt32 process error 
+2014/01/09 17:35:47.065 andorCCD:setupAcquisition: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.065 andorCCD:writeInt32: error, status=3 function=56, value=1
+2014/01/09 17:35:47.065 13ANDOR1:cam1:NumImages devAsynInt32 process error 
+cas warning: Configured TCP port was unavailable.
+cas warning: Using dynamically assigned TCP port 53866,
+cas warning: but now two or more servers share the same UDP port.
+cas warning: Depending on your IP kernel this server may not be
+cas warning: reachable with UDP unicast (a host's IP in EPICS_CA_ADDR_LIST)
+2014/01/09 17:35:47.066 andorCCD:setupAcquisition: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.066 andorCCD:writeInt32: error, status=3 function=46, value=1
+2014/01/09 17:35:47.066 13ANDOR1:cam1:SizeX devAsynInt32 process error 
+2014/01/09 17:35:47.066 andorCCD:setupAcquisition: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.066 andorCCD:writeInt32: error, status=3 function=47, value=1
+2014/01/09 17:35:47.066 13ANDOR1:cam1:SizeY devAsynInt32 process error 
+2014/01/09 17:35:47.066 andorCCD:setupAcquisition: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.066 andorCCD:writeInt32: error, status=3 function=84, value=0
+2014/01/09 17:35:47.066 13ANDOR1:cam1:AndorADCSpeed devAsynInt32 process error 
+2014/01/09 17:35:47.066 andorCCD:setupShutter: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.066 andorCCD:writeInt32: error, status=3 function=79, value=0
+2014/01/09 17:35:47.066 13ANDOR1:cam1:AndorShutterMode devAsynInt32 process error 
+iocRun: All initialization complete
+2014/01/09 17:35:47.068 andorCCD:setupAcquisition: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.068 andorCCD:writeInt32: error, status=3 function=53, value=2
+2014/01/09 17:35:47.068 13ANDOR1:cam1:ImageMode devAsynInt32 process error 
+2014/01/09 17:35:47.068 andorCCD:setupAcquisition: ERROR: Driver is not initialized.
+2014/01/09 17:35:47.068 andorCCD:writeInt32: error, status=3 function=62, value=0
+2014/01/09 17:35:47.068 13ANDOR1:cam1:TriggerMode devAsynInt32 process error 
+auto_settings.sav: 1055 of 1055 PV's connected
