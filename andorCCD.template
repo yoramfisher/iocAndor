@@ -74,7 +74,7 @@ record(mbbo, "$(P)$(R)TriggerMode")
    field(THVL, "3")
 }
 
-//Input:val={0-Internal, 1-External1, 2-External2, 3-External 1 or 2}
+#Input:val={0-Internal, 1-External1, 2-External2, 3-External 1 or 2}
 
 record(mbbi, "$(P)$(R)TriggerMode_RBV")
 {
