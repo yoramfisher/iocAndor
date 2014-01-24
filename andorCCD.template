@@ -86,6 +86,9 @@ record(mbbi, "$(P)$(R)TriggerMode_RBV")
    field(TWVL, "2")
    field(THST, "External 1or2")
    field(THVL, "3")
+   field(SCAN, "I/O Intr")
+#   field(SCAN, "1 second")
+   
 }
 
 record(mbbo, "$(P)$(R)DataType")
