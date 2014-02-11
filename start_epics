@@ -1,3 +1,7 @@
 #YF 1/9/14
-medm -x -macro "P=13ANDOR1:, R=cam1:" /opt/epics/synApps_5_6/support/all_adl/Andor.adl &
-../../bin/linux-x86/andorCCDApp st.cmd
+#medm -x -macro "P=13ANDOR1:, R=cam1:" /opt/epics/synApps_5_6/support/all_adl/Andor.adl &
+#../../bin/linux-x86/andorCCDApp st.cmd
+#JF
+edm -x -macro "P=13ANDOR1:, R=cam1:" /opt/epics/synApps_5_6/support/all_adl/Andor.adl &
+../../bin/linux-x86_64/andorCCDApp st.cmd
+
