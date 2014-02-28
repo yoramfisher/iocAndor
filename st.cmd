@@ -1,6 +1,10 @@
 < envPaths
 errlogInit(20000)
 
+#YF possibly required for imageJ plugin
+
+epicsEnvSet(EPICS_CA_MAX_ARRAY_BYTES,4432896)
+
 dbLoadDatabase("$(AREA_DETECTOR)/dbd/andorCCDApp.dbd")
 andorCCDApp_registerRecordDeviceDriver(pdbbase) 
 
