@@ -3,6 +3,10 @@ errlogInit(20000)
 #YF possibly required for imageJ plugin
 epicsEnvSet(EPICS_CA_MAX_ARRAY_BYTES,4432896)
 
+#YF possibly required for imageJ plugin
+
+epicsEnvSet(EPICS_CA_MAX_ARRAY_BYTES,4432896)
+
 dbLoadDatabase("$(AREA_DETECTOR)/dbd/andorCCDApp.dbd")
 andorCCDApp_registerRecordDeviceDriver(pdbbase) 
 
@@ -15,8 +19,11 @@ epicsEnvSet("NCHANS", "2048")
 
 # andorCCDConfig(const char *portName, int maxBuffers, size_t maxMemory, 
 #                const char *installPath, int priority, int stackSize)
-andorCCDConfig("$(PORT)", 0, 0, "/usr/local/etc/andor/", 0, 100000)
+
 FCCD_cin_power_up("param1")
+andorCCDConfig("$(PORT)", 0, 0, "/usr/local/etc/andor/", 0, 100000)
+
+#FCCD_cin_power_up("param1")
 #
 #FCCD_cin_power_down("param1")
 #
