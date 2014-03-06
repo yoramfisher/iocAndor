@@ -13,9 +13,24 @@ epicsEnvSet("XSIZE",  "2048")
 epicsEnvSet("YSIZE",  "2048")
 epicsEnvSet("NCHANS", "2048")
 
+#The following variables must be set to the correct file paths and file names.
+epicsEnvSet("FCCD_CONFIG_DIR", "/home/jfarrington/Documents/cin_config")
+epicsEnvSet("FPGA_CONFIGFILE", "top_frame_fpga-v1019j.bit")
+epicsEnvSet("CIN_WAVEFORM", "2013_Nov_30-200MHz_CCD_timing.txt")
+epicsEnvSet("CIN_FCRIC", "2013_Nov_25-200MHz_fCRIC_timing.txt")
+epicsEnvSet("CIN_BIAS", "2013_Nov_05_Bias_Settings.txt")
+
+
+
 # andorCCDConfig(const char *portName, int maxBuffers, size_t maxMemory, 
 #                const char *installPath, int priority, int stackSize)
 andorCCDConfig("$(PORT)", 0, 0, "/usr/local/etc/andor/", 0, 100000)
+
+# Set up the paths for CIN config files
+# Call FCCD_ConfigDirs before FCCD_cin_power_up
+FCCD_ConfigDirs($(FCCD_CONFIG_DIR), $(FPGA_CONFIGFILE), $(CIN_WAVEFORM), $(CIN_FCRIC), $(CIN_BIAS) )
+
+
 FCCD_cin_power_up("param1")
 #
 #FCCD_cin_power_down("param1")
