@@ -14,7 +14,7 @@ epicsEnvSet("YSIZE",  "2048")
 epicsEnvSet("NCHANS", "2048")
 
 #The following variables must be set to the correct file paths and file names.
-epicsEnvSet("FCCD_CONFIG_DIR", "/home/jfarrington/Documents/cin_config")
+epicsEnvSet("FCCD_CONFIG_DIR", "/home/jfarrington/Documents/cin_config/")
 epicsEnvSet("FPGA_CONFIGFILE", "top_frame_fpga-v1019j.bit")
 epicsEnvSet("CIN_WAVEFORM", "2013_Nov_30-200MHz_CCD_timing.txt")
 epicsEnvSet("CIN_FCRIC", "2013_Nov_25-200MHz_fCRIC_timing.txt")
