@@ -1,9 +1,7 @@
 #YF 1/9/14
-
 #JF for Ubuntu x32 architecture
 #medm -x -macro "P=13ANDOR1:, R=cam1:" /opt/epics/synApps_5_6/support/all_adl/Andor.adl &
 #../../bin/linux-x86/andorCCDApp st.cmd
-
 
 #JF for debian x64 architecture
 ../../bin/linux-x86_64/andorCCDApp st.cmd
