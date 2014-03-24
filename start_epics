@@ -6,3 +6,6 @@
 #JF for debian x64 architecture
 ../../bin/linux-x86_64/andorCCDApp st.cmd
 
+#JF start the AD edm GUI
+#export EDMDATAFILES=/epics/op/opi/edm
+#edm -x -noedit -m "P=13ANDOR1:, R=cam1:" /epics/op/opi/edm/ADBase.edl
